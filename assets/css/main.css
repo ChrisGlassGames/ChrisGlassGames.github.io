@@ -1155,7 +1155,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/backgroundMove.gif");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1273,7 +1273,7 @@ input, select, textarea {
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
-				width: 1px;
+				width: 0px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
@@ -1378,13 +1378,13 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
-			width: 1px;
+			width: 0px;
 			height: 100%;
 			background: #ffffff;
 		}
 
 		#header nav.use-middle ul li.is-middle {
-			
+
 		}
 
 		body.is-article-visible #header {
